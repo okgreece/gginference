@@ -2,4 +2,4 @@
 title: "README"
 output: md_document
 ---
-R Inferential Statistics
+Visualise the Results of Inferential Statistics using 'ggplot2'.

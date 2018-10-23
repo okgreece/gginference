@@ -12,7 +12,7 @@ Depends: R (>=  3.1.2)
 License: GPL-2 | file LICENSE
 Encoding: UTF-8
 LazyData: true
-Imports: ggplot2, rlang, stats, utils
+Imports: ggplot2, rlang, stats 
 RoxygenNote: 6.1.0
 Suggests: knitr, MASS, rmarkdown
 VignetteBuilder: knitr
