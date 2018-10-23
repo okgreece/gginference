@@ -1,4 +1,4 @@
-#' randexperiment
+#' Random experiment results
 #' 
 #' @description 
 #' A data frame with 128 sample results of a repeated experiment. 

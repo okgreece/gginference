@@ -1,4 +1,4 @@
-#' Salary_Gender
+#' Female and male salaries
 #' 
 #' @description 
 #' A sample data frame with female and male salaries of a company.

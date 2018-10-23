@@ -3,7 +3,7 @@
 \docType{data}
 \name{Salary_Gender}
 \alias{Salary_Gender}
-\title{Salary_Gender}
+\title{Female and male salaries}
 \format{A data frame with 100 observations of 2 columns:
 \describe{
   \item{\code{Male_sal}}{male salaries}

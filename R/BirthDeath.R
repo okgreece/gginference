@@ -20,6 +20,6 @@
 #' @name BirthDeath
 #' 
 #' @source The original data are available at 
-#' \href{<http://www.statistics.gr/>}{Hellenic Statistical Authority}
+#' \href{http://www.statistics.gr/}{Hellenic Statistical Authority}
 #' 
 NULL
