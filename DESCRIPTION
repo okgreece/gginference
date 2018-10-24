@@ -5,7 +5,7 @@ Version: 0.1.0
 Date: 2018-10-24
 Description: Visualise the Results of Inferential Statistics using 'ggplot2'. 
 Authors@R: c(
-    person("Charalampos", "Bratsas", , "bratsas@math.auth.gr", role = "aut"),
+    person("Charalampos", "Bratsas", , "cbratsas@math.auth.gr", role = "aut"),
     person("Anastasia", "Foudouli", , "anastasiafoudouli@gmail.com", role = "aut"),
     person("Kleanthis", "Koupidis", , "koupidis@okfn.gr", role = c("aut", "cre"))
     )
