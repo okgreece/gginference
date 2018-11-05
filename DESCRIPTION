@@ -3,7 +3,7 @@ Type: Package
 Title: Visualise the Results of Inferential Statistics using 'ggplot2'
 Version: 0.1.0
 Date: 2018-10-24
-Description: Visualise the Results of Inferential Statistics using 'ggplot2'. 
+Description: Visualise the results of F test to compare two variances, Student's t-test, test of equal or given proportions, Pearson's chi-squared test for count data and test for association/correlation between paired samples.
 Authors@R: c(
     person("Charalampos", "Bratsas", , "cbratsas@math.auth.gr", role = "aut"),
     person("Anastasia", "Foudouli", , "anastasiafoudouli@gmail.com", role = "aut"),
@@ -17,5 +17,5 @@ License: GPL-2 | file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: ggplot2, rlang, stats 
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.0.9000
 Suggests: knitr, MASS, rmarkdown

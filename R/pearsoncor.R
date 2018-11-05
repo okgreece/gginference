@@ -5,7 +5,7 @@
 #' Visualise test for association between paired samples, 
 #' using Pearson's product moment correlation coefficient.
 #' 
-#' @usage ggplot_cortest(t, colaccept="lightskyblue1", colreject="grey94", colstat="navy")
+#' @usage ggcortest(t, colaccept="lightskyblue1", colreject="grey94", colstat="navy")
 #' 
 #' @param t a list result of \code{\link{cor.test}} of "htest" class
 #' @param colaccept color the acceptance area of the test
@@ -17,7 +17,7 @@
 #' @import ggplot2
 #'
 #' 
-#' @rdname ggplot_cortest
+#' @rdname ggcortest
 #' 
 #' @export
 #' 
@@ -25,10 +25,10 @@
 #' 
 #' corr_test <- cor.test(iris$Sepal.Length, iris$Sepal.Width)
 #' corr_test
-#' ggplot_cortest(corr_test)
+#' ggcortest(corr_test)
 #' 
 
-ggplot_cortest<-function(t, colaccept="lightskyblue1", colreject="grey94", colstat="navy"){
+ggcortest<-function(t, colaccept="lightskyblue1", colreject="grey94", colstat="navy"){
   
   if (t$method == "Pearson's product-moment correlation"){
     

@@ -2,7 +2,7 @@
 
 export(ggaov)
 export(ggchisqtest)
-export(ggplot_cortest)
+export(ggcortest)
 export(ggproptest)
 export(ggttest)
 export(ggvartest)
