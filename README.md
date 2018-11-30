@@ -13,7 +13,7 @@ version](https://img.shields.io/badge/R%3E%3D-3.1-6666ff.svg)](https://cran.r-pr
 [![](http://cranlogs.r-pkg.org/badges/grand-total/gginference)](http://cran.rstudio.com/web/packages/gginference/index.html)
 [![Licence](https://img.shields.io/badge/licence-GPL--2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 [![Rdoc](http://www.rdocumentation.org/badges/version/gginference)](http://www.rdocumentation.org/packages/gginference)
-[![DOI](https://zenodo.org/badge/154222677.svg)](https://zenodo.org/badge/latestdoi/154222677)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1745505.svg)](https://doi.org/10.5281/zenodo.1745505)
 
 Visualise the results of F test to compare two variances, Student’s
 t-test, test of equal or given proportions, Pearson’s chi-squared test
