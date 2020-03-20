@@ -55,8 +55,8 @@ ggaov <- function(t, alpha=0.05, colaccept="lightsteelblue1", colreject="grey84"
     #plot it
     ggplot(data = data.frame(points),aes(points)) +
       stat_function(fun = stats::df, n = 100, args = list(df1 = df1, df2 = df2), col = "white") +
-      geom_polygon(data = dfpoly1, aes(dfpoly1$x, dfpoly1$y), fill = colreject) +
-      geom_polygon(data = dfpoly2, aes(dfpoly2$x, dfpoly2$y), fill = colaccept) +
+      geom_polygon(data = dfpoly1, aes(x, y), fill = colreject) +
+      geom_polygon(data = dfpoly2, aes(x, y), fill = colaccept) +
       labs(title = "F distribution Vs test statistic",
            subtitle = "based on one way ANOVA",
            x = paste("F distribution with", df1, "&", df2, "degrees of freedom"),
@@ -96,8 +96,8 @@ ggaov <- function(t, alpha=0.05, colaccept="lightsteelblue1", colreject="grey84"
       #plot it
       ggplot(data = data.frame(points),aes(points)) +
         stat_function(fun = stats::df, n = 100, args = list(df1 = df1, df2 = df2), col = "white") +
-        geom_polygon(data = dfpoly1, aes(dfpoly1$x, dfpoly1$y), fill = colreject) +
-        geom_polygon(data = dfpoly2, aes(dfpoly2$x, dfpoly2$y), fill = colaccept) +
+        geom_polygon(data = dfpoly1, aes(x, y), fill = colreject) +
+        geom_polygon(data = dfpoly2, aes(x, y), fill = colaccept) +
         labs(title = "F distribution Vs test statistic",
              subtitle = "based on two way ANOVA",
              x = paste("F distribution with", df1, "&", df2, "degrees of freedom"),

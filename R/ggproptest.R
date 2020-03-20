@@ -58,8 +58,8 @@ ggproptest <- function(t, alpha = 0.05,
   
   plotpropt <- ggplot(data = data.frame(points), aes(points)) +
     stat_function(fun = stats::dchisq, args = list(df = df), col = "white") +
-    geom_polygon(data = dfpoly1, aes(dfpoly1$x, dfpoly1$y), fill = colreject) +
-    geom_polygon(data = dfpoly2, aes(dfpoly2$x, dfpoly2$y), fill = colaccept) +
+    geom_polygon(data = dfpoly1, aes(x, y), fill = colreject) +
+    geom_polygon(data = dfpoly2, aes(x, y), fill = colaccept) +
     labs(title = "Chi-squared distribution Vs test statistic",
          subtitle = paste("based on", t$method),
          x = paste("Chi-squared distributions with", df, "degrees of freedom"),

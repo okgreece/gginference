@@ -74,9 +74,9 @@ ggchisqtest<-function(t, colaccept="lightsteelblue1", colreject="gray84", colsta
     
     stat_function(fun = stats::dchisq, n = 101, args = list(df = df), col = "white") +
     
-    geom_polygon(data = dfpoly1, aes(dfpoly1$x, dfpoly1$y), fill = colreject) +
+    geom_polygon(data = dfpoly1, aes(x, y), fill = colreject) +
     
-    geom_polygon(data = dfpoly2, aes(dfpoly2$x, dfpoly2$y), fill = colaccept) +
+    geom_polygon(data = dfpoly2, aes(x, y), fill = colaccept) +
     
     labs(title = "Chi-squared distribution Vs test statistic",
          subtitle = paste("based on", t$method),

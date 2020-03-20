@@ -141,9 +141,9 @@ normt <- function(t, colaccept, colreject, colstat) {
     
     stat_function(fun = stats::dnorm, n = 101, args = list(mean = 0, sd = 1), col = "white") +
     
-    geom_polygon(data = dfpoly1, aes(dfpoly1$x, dfpoly1$y), fill = colreject) +
+    geom_polygon(data = dfpoly1, aes(x, y), fill = colreject) +
     
-    geom_polygon(data = dfpoly2, aes(dfpoly2$x, dfpoly2$y), fill = colaccept) +
+    geom_polygon(data = dfpoly2, aes(x, y), fill = colaccept) +
     
     labs(title = "Normal distribution Vs test statistic",
          subtitle = paste("Alternative hypothesis:", t$alternative),
@@ -240,11 +240,11 @@ studt <- function(t, colaccept, colreject, colstat) {
     stat_function(fun = stats::dt, n = 101, args=list(df=df), col = "white") +
     
     geom_polygon(data = dfpoly1, 
-                 aes(dfpoly1$x, dfpoly1$y),
+                 aes(x, y),
                  fill = colreject) +
     
     geom_polygon(data = dfpoly2, 
-                 aes(dfpoly2$x, dfpoly2$y), 
+                 aes(x, y), 
                  fill = colaccept) +
     
     labs(title = "Student t distribution Vs test statistic",

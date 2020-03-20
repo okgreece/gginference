@@ -67,11 +67,11 @@ ggcortest<-function(t, colaccept="lightskyblue1", colreject="grey94", colstat="n
                     col = "grey")+
       
       geom_polygon(data = dfpoly2,
-                   aes(dfpoly2$x, dfpoly2$y),
+                   aes(x, y),
                    fill = colreject)+
       
       geom_polygon(data = dfpoly,
-                   aes(dfpoly$x, dfpoly$y),
+                   aes(x, y),
                    fill = colaccept)+
       
       labs(title = "Student's t distribution Vs test statistic",

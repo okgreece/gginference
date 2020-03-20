@@ -76,12 +76,12 @@ ggvartest <- function(t, colaccept = "lightsteelblue1",
     
     geom_polygon(
       data = dfpoly1,
-      aes(dfpoly1$x, dfpoly1$y), 
+      aes(x, y), 
       fill = colreject) +
     
     geom_polygon(
       data = dfpoly2, 
-      aes(dfpoly2$x, dfpoly2$y), 
+      aes(x, y), 
       fill = colaccept) +
     
     labs(

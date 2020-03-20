@@ -9,7 +9,7 @@ Pull-Requests](http://githubbadges.herokuapp.com/okgreece/gginference/pulls.svg)
 [![Github
 Issues](http://githubbadges.herokuapp.com/okgreece/gginference/issues.svg)](https://github.com/okgreece/gginference/issues)
 [![minimal R
-version](https://img.shields.io/badge/R%3E%3D-3.1-6666ff.svg)](https://cran.r-project.org/)
+version](https://img.shields.io/badge/R%3E%3D-3.5-6666ff.svg)](https://cran.r-project.org/)
 [![](http://cranlogs.r-pkg.org/badges/grand-total/gginference)](http://cran.rstudio.com/web/packages/gginference/index.html)
 [![Licence](https://img.shields.io/badge/licence-GPL--2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 [![Rdoc](http://www.rdocumentation.org/badges/version/gginference)](http://www.rdocumentation.org/packages/gginference)
