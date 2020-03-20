@@ -296,3 +296,6 @@ studt <- function(t, colaccept, colreject, colstat) {
                 label = round(data.frame(x = lb)$x,3), vjust = 0.3)
   }
 }
+
+
+utils::globalVariables(c("x", "y"))

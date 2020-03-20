@@ -16,6 +16,6 @@ Depends: R (>= 3.5.0)
 License: GPL-2 | file LICENSE
 Encoding: UTF-8
 LazyData: true
-Imports: ggplot2, rlang, stats 
+Imports: ggplot2, rlang, stats, utils
 RoxygenNote: 7.0.2
 Suggests: knitr, MASS, rmarkdown
