@@ -5,3 +5,4 @@
 ^NEWS\.Rmd$
 ^docs$
 ^data-raw$
+^readme_formula$
