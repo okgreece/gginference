@@ -4,11 +4,13 @@
 \name{LivLab}
 \alias{LivLab}
 \title{LivLab}
-\format{A data frame with 10 observations of 2 columns:
+\format{
+A data frame with 10 observations of 2 columns:
 \describe{
   \item{\code{before}}{score in a neuropsychological test before serious game intervention}
   \item{\code{after}}{score in a neuropsychological test after serious game intervention}
-  }}
+  }
+}
 \source{
 <http://aha-livinglabs.com/>
 }

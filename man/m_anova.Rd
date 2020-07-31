@@ -4,13 +4,15 @@
 \name{m_anova}
 \alias{m_anova}
 \title{m_anova}
-\format{A data frame with 54 observations of 4 columns:
+\format{
+A data frame with 54 observations of 4 columns:
 \describe{
   \item{\code{Categories}}{integer representing three categories}
   \item{\code{UrbanAreas}}{coding for urban, suburban and rural areas}
   \item{\code{Month}}{integer representing three months}
   \item{\code{Volume}}{volume in cubic meters}
-  }}
+  }
+}
 \source{
 The original data are available at 
 \href{http://www.statistics.gr/}{Hellenic Statistical Authority}

@@ -4,7 +4,8 @@
 \name{questionnaire}
 \alias{questionnaire}
 \title{Questionnaire Answers}
-\format{A data frame with 50 observations of 8 columns:
+\format{
+A data frame with 50 observations of 8 columns:
 \describe{
   \item{\code{gender}}{A factor with the student gender}
   \item{\code{writing.hand}}{A factor with the writing hand of the students(left, right)}
@@ -14,7 +15,8 @@
   \item{\code{smoke}}{A factor with the frequency the students smokes (heavy, regularly, occasionally, never)}
   \item{\code{height}}{Integer with the height of the students (in centimeters)}
   \item{\code{age}}{Integer with the age of the students}
-  }}
+  }
+}
 \usage{
 questionnaire
 }

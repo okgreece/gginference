@@ -4,7 +4,9 @@
 \name{randexperiment}
 \alias{randexperiment}
 \title{Random experiment results}
-\format{A data frame with 128 observations of 1 column.}
+\format{
+A data frame with 128 observations of 1 column.
+}
 \usage{
 randexperiment
 }

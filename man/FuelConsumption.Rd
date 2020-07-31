@@ -4,7 +4,8 @@
 \name{FuelConsumption}
 \alias{FuelConsumption}
 \title{FuelConsumption}
-\format{A data frame with 50 observations of 8 columns:
+\format{
+A data frame with 50 observations of 8 columns:
 \describe{
   \item{\code{Geographic.area}}{factor with geographic area of Greece}
   \item{\code{Regions}}{factor with regions of Greece}
@@ -14,7 +15,8 @@
   \item{\code{DieselBio}}{metric tons of bio diesel consumption}
   \item{\code{LPG}}{metric tons of liquefied petroleum gas consumption}
   \item{\code{DieselC}}{metric tons of heating oil consumption}
-  }}
+  }
+}
 \source{
 The original data are available at 
 \href{http://www.statistics.gr/}{Hellenic Statistical Authority}

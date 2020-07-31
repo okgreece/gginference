@@ -4,11 +4,13 @@
 \name{Salary_Gender}
 \alias{Salary_Gender}
 \title{Female and male salaries}
-\format{A data frame with 100 observations of 2 columns:
+\format{
+A data frame with 100 observations of 2 columns:
 \describe{
   \item{\code{Male_sal}}{male salaries}
   \item{\code{Female_sal}}{female salaries}
-  }}
+  }
+}
 \usage{
 Salary_Gender
 }

@@ -4,11 +4,13 @@
 \name{accidentsData}
 \alias{accidentsData}
 \title{Car accident data}
-\format{A data frame with 383 observations of 2 columns:
+\format{
+A data frame with 383 observations of 2 columns:
 \describe{
   \item{\code{record}}{factor representing the driver status}
   \item{\code{seatBelt}}{factor indicating whether the driver wore a seatbelt}
-  }}
+  }
+}
 \source{
 The original data are available at 
 \href{http://www.statistics.gr/}{Hellenic Statistical Authority}

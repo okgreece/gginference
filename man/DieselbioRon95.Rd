@@ -4,14 +4,16 @@
 \name{DieselbioRon95}
 \alias{DieselbioRon95}
 \title{Bio diesel and RON 95 consumption}
-\format{A data frame with 24 observations of 5 columns:
+\format{
+A data frame with 24 observations of 5 columns:
 \describe{
   \item{\code{region}}{factor of Greek regions}
   \item{\code{DieselBio_consumption2006}}{metric tons of bio-diesel consumption in 2006}
   \item{\code{DieselBio_consumption2016}}{metric tons of bio-diesel consumption in 2016}
   \item{\code{RON95_consumption2006}}{metric tons of ron 95 consumption in 2006}
   \item{\code{RON95_consumption2016}}{metric tons of ron 95 consumption in 2016}
-  }}
+  }
+}
 \source{
 The original data are available at 
 \href{http://www.statistics.gr/}{Hellenic Statistical Authority}
