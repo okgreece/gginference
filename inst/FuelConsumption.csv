@@ -1,0 +1,51 @@
+"Geographic.area","Regions","Runits","RON95","RON98_100","DieselBio","LPG","DieselC"
+"Northern Greece","Eastern Macedonia and Thrace","Evros ",22471.3916,736.9344,53418.827,6318.6823,29075.7926
+"Northern Greece"," Eastern Macedonia and Thrace","Xanthi",16886.2575,623.6635,21758.41,4554.6166,12361.8304
+"Northern Greece"," Eastern Macedonia and Thrace","Rhodope",15372.6056,396.3954,31112.0726,4019.9,14396.3012
+"Northern Greece"," Eastern Macedonia and Thrace","Drama",16276.8657,322.0945,27963.1845,4994.6863,19885.4699
+"Northern Greece","Eastern Macedonia and Thrace","Kavala",28104.5904,633.7784,51673.6707,6112.5172,24341.6833
+"Northern Greece","Central Macedonia","Serres",27475.1965,787.7412,46128.3144,8230.8783,34679.5932
+"Northern Greece","Central Macedonia","Imathia",26054.7132,1696.9277,46466.8172,12120.8733,30471.7924
+"Northern Greece","Central Macedonia","Thessaloniki",235096.9457,10011.2008,284353.7288,54158.0263,121277.5754
+"Northern Greece","Central Macedonia","Kilkis",11029.8407,190.9525,25788.1838,3555.9862,16515.5107
+"Northern Greece","Central Macedonia","Pella",20714.273,275.0582,39149.3936,7306.5709,27605.3012
+"Northern Greece","Central Macedonia","Pieria",25013.8782,1239.4649,39020.6039,7480.5709,27265.7125
+"Northern Greece","Central Macedonia","Chalkidiki",27812.7431,564.9306,47578.0634,9135.0727,20326.7986
+"Northern Greece","Western Macedonia","Grevena",4705.3565,74.2587,10403.2893,2443.82,6266.7136
+"Northern Greece","Western Macedonia","Kastoria",9594.2962,380.2257,13435.7577,2372.478,12154.051
+"Northern Greece","Western Macedonia","Kozani",24378.185,699.5668,67713.2648,8510.0156,18132.4022
+"Northern Greece","Western Macedonia","Florina",5956.1193,117.2123,15055.4875,2995.8365,9863.3113
+"Central Greece","Thessaly","Karditsa",19221.2395,765.0196,34068.9824,8466.3982,19764.2374
+"Central Greece","Thessaly","Larissa",49342.8858,2935.8563,88119.4979,16558.3399,34836.1702
+"Central Greece","Thessaly","Magnesia ",38782.6791,2362.4492,48636.92,8810.2105,19180.6475
+"Central Greece","Thessaly","Trikala",22806.9097,764.7162,32947.915,11752.6237,23771.0219
+"Central Greece","Epirus","Arta",11289.1704,520.2638,18800.6807,4550.066,7190.9385
+"Central Greece","Epirus","Thesprotia",10664.49,337.7078,27465.6061,2245.415,5925.2544
+"Central Greece","Epirus","Ioannina",36160.2528,1158.7239,50590.87,16445.0338,36276.1666
+"Central Greece","Epirus","Preveza",13268.2767,501.0327,18608.3724,4057.707,6647.5755
+"Greek Islands","Ionian Islands","Zakynthos",12994.5185,289.1982,11477.6665,1738.797,3463.3052
+"Greek Islands","Ionian Islands","Kefalonia",10798.9174,643.0328,11674.3175,1916.062,3528.646
+"Greek Islands","Ionian Islands","Corfu ",30029.5411,759.0104,20653.0985,4516.6536,8592.66
+"Greek Islands","Ionian Islands","Lefkada",6604.0674,162.162,7351.9012,1177.3033,2362.1221
+"Central Greece","Western Greece","Aetolia-Acarnania",39933.9761,1384.6219,66090.46,14397.7701,16542.2025
+"Central Greece","Western Greece","Achaea",69751.1567,3849.2626,104080.4462,15380.6357,24265.2658
+"Central Greece","Western Greece","Ilia ",33189.6696,972.6069,37466.3612,6871.8409,10907.5244
+"Central Greece","Central Greece","Boeotia",27254.0512,1124.7641,59031.1172,12268.204,20203.2746
+"Central Greece","Central Greece","Euboea",45842.3583,2328.4659,54681.95,16783.2011,26317.7007
+"Central Greece","Central Greece","Evrytania",2133.2208,59.19,2543.9737,653.7108,2619.9379
+"Central Greece","Central Greece","Phthiotis",33533.166,1287.3213,58542.5284,10830.9096,24090.2931
+"Central Greece","Central Greece","Phocis",5052.4639,203.0783,14116.2908,1065.733,3729.1765
+"Central Greece","Peloponnese","Argolis",26850.6875,1213.5557,34284.1799,7049.5225,10227.5806
+"Central Greece","Peloponnese","Arcadia",18098.5076,1204.084,28684.2312,3553.9695,13912.4685
+"Central Greece","Peloponnese","Corinthia",38386.0224,1851.7877,46654.3678,8302.0523,17940.785
+"Central Greece","Peloponnese","Laconia",21624.7908,1264.9582,28065.9428,3893.3514,6600.3162
+"Central Greece","Peloponnese","Messinia",37621.9516,1924.468,40120.4625,7039.0253,8350.412
+"Greek Islands","North Aegean","Lesbos",20423.7493,548.8411,16856.1154,2234.7077,11249.443
+"Greek Islands","North Aegean","Samos",9309.3699,313.7218,5862.38,617.8794,3278.1185
+"Greek Islands","North Aegean","Chios",11976.0466,359.2512,7041.8195,911.482,6676.9823
+"Greek Islands","South Aegean","Dodecanese",54712.9035,1300.024,45813.5291,15158.7615,6797.3985
+"Greek Islands","South Aegean","Cyclades",32622.8282,1353.0507,33253.0885,4228.9834,9675.3478
+"Greek Islands","Crete","Heraklion",74003.1764,3168.4494,75293.8554,12267.2812,19894.1123
+"Greek Islands","Crete","Lasithi",18613.8205,670.6045,20377.1808,2160.0954,3420.2414
+"Greek Islands","Crete","Rethymno",19309.7309,546.9893,20607.2407,4045.9814,4588.52
+"Greek Islands","Crete","Chania",43989.5312,1660.5,38625.5736,5144.1726,11397.7776
