@@ -1,0 +1,51 @@
+"gender"	"writing.hand"	"fold.arm"	"pulse"	"exercise"	"smoke"	"height"	"age"
+"female"	"right"	"right on left"	70	"some"	"never"	159	23
+"male"	"right"	"right on left"	72	"frequently"	"never"	180	17
+"male"	"right"	"right on left"	80	"some"	"regularly"	179	19
+"male"	"right"	"left on right"	96	"some"	"never"	180	19
+"female"	"right"	"left on right"	66	"some"	"regularly"	155	18
+"male"	"right"	"left on right"	60	"none"	"never"	170	18
+"female"	"right"	"right on left"	90	"none"	"regularly"	168	17
+"female"	"right"	"right on left"	72	"none"	"never"	183	19
+"female"	"right"	"right on left"	64	"none"	"regularly"	164	20
+"female"	"right"	"left on right"	68	"none"	"never"	171	18
+"female"	"right"	"left on right"	35	"none"	"never"	165	24
+"female"	"left"	"right on left"	80	"none"	"heavy"	170	18
+"male"	"left"	"left on right"	79	"none"	"never"	167	19
+"female"	"left"	"right on left"	75	"none"	"never"	170	19
+"female"	"left"	"left on right"	92	"none"	"never"	165	20
+"female"	"left"	"right on left"	70	"some"	"never"	170	18
+"male"	"left"	"left on right"	100	"frequently"	"heavy"	184	20
+"female"	"right"	"Neither"	86	"none"	"never"	160	20
+"female"	"right"	"right on left"	80	"some"	"never"	170	18
+"female"	"left"	"right on left"	68	"frequently"	"never"	172	19
+"male"	"right"	"right on left"	80	"some"	"never"	185	36
+"female"	"right"	"left on right"	68	"some"	"never"	169	17
+"male"	"right"	"left on right"	72	"frequently"	"never"	180	18
+"male"	"left"	"left on right"	97	"none"	"never"	165	20
+"male"	"right"	"left on right"	48	"frequently"	"never"	174	21
+"female"	"right"	"right on left"	70	"some"	"occasionally"	163	17
+"male"	"left"	"Neither"	55	"frequently"	"occasionally"	200	19
+"female"	"right"	"Neither"	84	"frequently"	"occasionally"	164	23
+"male"	"right"	"Neither"	83	"frequently"	"never"	183	19
+"female"	"left"	"Neither"	80	"frequently"	"never"	170	17
+"male"	"left"	"right on left"	72	"frequently"	"never"	183	18
+"female"	"right"	"left on right"	40	"frequently"	"never"	168	17
+"female"	"right"	"left on right"	85	"some"	"never"	165	18
+"male"	"right"	"right on left"	68	"frequently"	"regularly"	190	19
+"male"	"right"	"left on right"	72	"some"	"never"	192	18
+"male"	"right"	"right on left"	88	"frequently"	"never"	185	19
+"female"	"left"	"right on left"	68	"some"	"never"	165	17
+"male"	"left"	"left on right"	70	"frequently"	"never"	170	24
+"male"	"right"	"left on right"	76	"frequently"	"occasionally"	177	18
+"male"	"right"	"Neither"	63	"frequently"	"occasionally"	196	20
+"female"	"right"	"left on right"	72	"some"	"occasionally"	160	17
+"female"	"right"	"right on left"	88	"some"	"occasionally"	165	18
+"female"	"right"	"right on left"	60	"frequently"	"never"	167	23
+"male"	"left"	"left on right"	80	"some"	"occasionally"	183	19
+"female"	"right"	"right on left"	72	"some"	"regularly"	155	17
+"female"	"right"	"left on right"	70	"frequently"	"regularly"	178	18
+"female"	"right"	"Neither"	68	"frequently"	"heavy"	170	21
+"female"	"right"	"right on left"	65	"frequently"	"regularly"	173	17
+"male"	"right"	"left on right"	90	"some"	"regularly"	189	19
+"male"	"right"	"left on right"	75	"frequently"	"never"	188	19
