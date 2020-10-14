@@ -1,14 +1,14 @@
-"Cow.Milk"	"Sheep.Milk"	"Goat.Milk"
-86	48	34
-343	115	83
-58	46	18
-649	73	23
-110	114	40
-983	45	27
-1445	1102	1037
-18	127	37
-1346	38	42
-9	11	5
-3	47	8
-15	12	17
-409	85	42
+"Region"	"Cow.Milk"	"Sheep.Milk"	"Goat.Milk"
+"Eastern Macedonia and Thrace"	86	48	34
+"Central Macedonia"	343	115	83
+"Western Macedonia"	58	46	18
+"Epirus"	649	73	23
+"Thessally"	110	114	40
+"Central Greece"	983	45	27
+"Ionian Islands"	1445	1102	1037
+"Western Greece"	18	127	37
+"Peloponnese"	1346	38	42
+"Attica"	9	11	5
+"Northern Aegean"	3	47	8
+"Southern Aegean"	15	12	17
+"Crete"	409	85	42
