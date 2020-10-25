@@ -2,7 +2,7 @@ Package: gginference
 Type: Package
 Title: Visualise the Results of Inferential Statistics using 'ggplot2'
 Version: 0.1.3
-Date: 2020-10-23
+Date: 2020-10-25
 Description: Visualise the results of F test to compare two variances, Student's t-test, test of equal or given proportions, Pearson's chi-squared test for count data and test for association/correlation between paired samples.
 Authors@R: c(
     person("Charalampos", "Bratsas", , "cbratsas@math.auth.gr", role = "aut"),
