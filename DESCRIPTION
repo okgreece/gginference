@@ -7,9 +7,9 @@ Description: Visualise the results of F test to compare two variances, Student's
 Authors@R: c(
     person("Charalampos", "Bratsas", , "cbratsas@math.auth.gr", role = "aut"),
     person("Anastasia", "Foudouli", , "anastasiafoudouli@gmail.com", role = "aut"),
-    person("Kleanthis", "Koupidis", , "koupidis@okfn.gr", role = c("aut", "cre"))
+    person("Kleanthis", "Koupidis", , "koupidis.okfgr@gmail.com", role = c("aut", "cre"))
     )
-Maintainer: Kleanthis Koupidis <koupidis@okfn.gr>
+Maintainer: Kleanthis Koupidis <koupidis.okfgr@gmail.com>
 URL: https://github.com/okgreece/gginference
 BugReports: https://github.com/okgreece/gginference/issues
 Depends: R (>=  3.6.3)
