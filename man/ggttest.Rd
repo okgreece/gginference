@@ -4,7 +4,8 @@
 \alias{ggttest}
 \title{Student's t-test plot}
 \usage{
-ggttest(t, colaccept="lightsteelblue1", colreject="grey84", colstat="navyblue")
+ggttest(t, colaccept="lightsteelblue1", colreject="grey84", 
+colstat="navyblue")
 }
 \arguments{
 \item{t}{a list result of \code{\link{t.test}} of "htest" class}
@@ -23,7 +24,6 @@ Visualise one and/or two sample t-tests on vectors of data.
 t_test <- t.test(sleep$extra ~ sleep$group)
 t_test
 ggttest(t_test)
-
 
 t_test2 <- t.test(x = 1:10, y = c(7:20)) 
 t_test2

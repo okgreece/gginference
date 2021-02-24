@@ -1,12 +1,12 @@
 #' FuelConsumption
-#' 
-#' @description 
+#'
+#' @description
 #' A data frame containing the fuel consumption in Greece.
-#'  
+#'
 #' @usage FuelConsumption
-#' 
+#'
 #' @docType data
-#' 
+#'
 #' @format A data frame with 50 observations of 8 columns:
 #' \describe{
 #'   \item{\code{Geographic.area}}{factor with geographic area of Greece}
@@ -18,10 +18,10 @@
 #'   \item{\code{LPG}}{metric tons of liquefied petroleum gas consumption}
 #'   \item{\code{DieselC}}{metric tons of heating oil consumption}
 #'   }
-#' 
+#'
 #' @name FuelConsumption
-#' 
-#' @source The original data are available at 
+#'
+#' @source The original data are available at
 #' \href{http://www.statistics.gr/}{Hellenic Statistical Authority}
-#' 
+#'
 NULL

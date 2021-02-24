@@ -4,8 +4,8 @@
 \alias{ggaov}
 \title{Anova F test plot}
 \usage{
-ggaov(t, alpha=0.05, colaccept="lightsteelblue1", 
-colreject="grey84", colstat="navyblue")
+ggaov(t, alpha=0.05, colaccept="lightsteelblue1",
+ colreject="grey84", colstat="navyblue")
 }
 \arguments{
 \item{t}{an object of class aov}

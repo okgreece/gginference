@@ -18,7 +18,7 @@ A data frame with 50 observations of 8 columns:
   }
 }
 \source{
-The original data are available at 
+The original data are available at
 \href{http://www.statistics.gr/}{Hellenic Statistical Authority}
 }
 \usage{

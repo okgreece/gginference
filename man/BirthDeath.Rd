@@ -15,13 +15,13 @@ A data frame with 71 observations of 5 columns:
   }
 }
 \source{
-The original data are available at 
+The original data are available at
 \href{http://www.statistics.gr/}{Hellenic Statistical Authority}
 }
 \usage{
 BirthDeath
 }
 \description{
-A data frame containing the number of births and deaths 
+A data frame containing the number of births and deaths
 along with their rates from 1932 to 2016.
 }

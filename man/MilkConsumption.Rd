@@ -13,13 +13,13 @@ A data frame with 13 observations of 3 columns:
   }
 }
 \source{
-The original data are available at 
+The original data are available at
 \href{http://www.statistics.gr/}{Hellenic Statistical Authority}
 }
 \usage{
 MilkConsumption
 }
 \description{
-A data frame containing a sample of the number of cow, 
+A data frame containing a sample of the number of cow,
 sheep and goat milk bottles sold.
 }

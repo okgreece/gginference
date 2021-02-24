@@ -4,13 +4,14 @@
 \alias{ggvartest}
 \title{F test plot}
 \usage{
-ggvartest(t, colaccept = "lightsteelblue1", 
+ggvartest(t, colaccept = "lightsteelblue1",
 colreject = "gray84", colstat = "navyblue")
 }
 \arguments{
 \item{t}{a list result of \code{\link{var.test}} of "htest" class}
 
-\item{colaccept}{color the acceptance area of the test, see  \code{\link{colors}}}
+\item{colaccept}{color the acceptance area of the test, see
+\code{\link{colors}}}
 
 \item{colreject}{color for the rejection area of the test}
 

@@ -14,13 +14,13 @@ A data frame with 54 observations of 4 columns:
   }
 }
 \source{
-The original data are available at 
+The original data are available at
 \href{http://www.statistics.gr/}{Hellenic Statistical Authority}
 }
 \usage{
 m_anova
 }
 \description{
-A data frame with the volume of new stores by category 
+A data frame with the volume of new stores by category
 for urban, suburban and rural areas.
 }

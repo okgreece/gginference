@@ -4,7 +4,7 @@
 \alias{ggchisqtest}
 \title{Plot for Pearson's Chi-squared Test for Count Data}
 \usage{
-ggchisqtest(t, colaccept="lightsteelblue1", colreject="gray84", 
+ggchisqtest(t, colaccept="lightsteelblue1", colreject="gray84",
 colstat="navyblue", alpha=0.05)
 }
 \arguments{
@@ -16,7 +16,8 @@ colstat="navyblue", alpha=0.05)
 
 \item{colstat}{color for the test statistic vline}
 
-\item{alpha}{default set to 0.05, choose confidence level for the plot as it is not stated in chisqtest}
+\item{alpha}{default set to 0.05, choose confidence level for the plot as it
+is not stated in chisqtest}
 }
 \description{
 Visualise chi-squared contingency table tests and goodness-of-fit tests.

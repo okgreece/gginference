@@ -11,6 +11,6 @@ A data frame with 128 observations of 1 column.
 randexperiment
 }
 \description{
-A data frame with 128 sample results of a repeated experiment. 
+A data frame with 128 sample results of a repeated experiment.
 Success is noted with 1 and failure with 0.
 }

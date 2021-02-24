@@ -4,13 +4,14 @@
 \alias{ggproptest}
 \title{Plot test of Equal or Given Proportions}
 \usage{
-ggproptest(t, alpha=0.05,colaccept="lightsteelblue1", 
+ggproptest(t, alpha=0.05,colaccept="lightsteelblue1",
 colreject="gray84", colstat="navyblue")
 }
 \arguments{
 \item{t}{a list result of \code{\link{prop.test}} of "htest" class}
 
-\item{alpha}{alpha level for ploting distribution, when prop.test is used on more than 2 samples}
+\item{alpha}{alpha level for ploting distribution, when prop.test is used on
+more than 2 samples}
 
 \item{colaccept}{color the acceptance area of the test}
 
@@ -19,8 +20,9 @@ colreject="gray84", colstat="navyblue")
 \item{colstat}{color for the test statistic vline}
 }
 \description{
-Visualise \code{\link{prop.test}} for testing the null that the proportions (probabilities of success) 
-in several groups are the same, or that they equal certain given values.
+Visualise \code{\link{prop.test}} for testing the null that the proportions
+ (probabilities of success) in several groups are the same, or that they 
+ equal certain given values.
 }
 \examples{
 

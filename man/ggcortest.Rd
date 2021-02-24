@@ -4,7 +4,8 @@
 \alias{ggcortest}
 \title{Plot test for association between paired samples}
 \usage{
-ggcortest(t, colaccept="lightskyblue1", colreject="grey94", colstat="navy")
+ggcortest(t, colaccept="lightskyblue1", colreject="grey94",
+colstat="navy")
 }
 \arguments{
 \item{t}{a list result of \code{\link{cor.test}} of "htest" class}
@@ -16,7 +17,7 @@ ggcortest(t, colaccept="lightskyblue1", colreject="grey94", colstat="navy")
 \item{colstat}{color for the test statistic vline}
 }
 \description{
-Visualise test for association between paired samples, 
+Visualise test for association between paired samples,
 using Pearson's product moment correlation coefficient.
 }
 \examples{

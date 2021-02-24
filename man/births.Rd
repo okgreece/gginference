@@ -8,17 +8,16 @@
 A data frame with 14 observations of 2 columns:
 \describe{
   \item{\code{year}}{years from 1976 to 1989}
-  \item{\code{rate}}{number of births per 1000 people}
-  }
+  \item{\code{rate}}{number of births per 1000 people}}
 }
 \source{
-The original data are available at 
+The original data are available at
 \href{http://www.statistics.gr/}{Hellenic Statistical Authority}
 }
 \usage{
 births
 }
 \description{
-A data frame giving the number of births per 1000 people 
+A data frame giving the number of births per 1000 people
 in Greece from 1976 to 1989.
 }
