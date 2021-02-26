@@ -4,7 +4,7 @@
 \alias{ggttest}
 \title{Student's t-test plot}
 \usage{
-ggttest(t, colaccept="lightsteelblue1", colreject="grey84", 
+ggttest(t, colaccept="lightsteelblue1", colreject="grey84",
 colstat="navyblue")
 }
 \arguments{
@@ -25,8 +25,7 @@ t_test <- t.test(sleep$extra ~ sleep$group)
 t_test
 ggttest(t_test)
 
-t_test2 <- t.test(x = 1:10, y = c(7:20)) 
+t_test2 <- t.test(x = 1:10, y = c(7:20))
 t_test2
 ggttest(t_test2)
-
 }

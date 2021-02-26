@@ -25,5 +25,4 @@ using Pearson's product moment correlation coefficient.
 corr_test <- cor.test(iris$Sepal.Length, iris$Sepal.Width)
 corr_test
 ggcortest(corr_test)
-
 }

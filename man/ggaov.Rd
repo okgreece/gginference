@@ -23,10 +23,9 @@ Visualise anova F-test to determine whether group means are equal
 }
 \examples{
 # 21-th day
-chick21 <- ChickWeight[ChickWeight$Time == 21,]
-chickaov <- aov(weight~Diet, data = chick21)
+chick21 <- ChickWeight[ChickWeight$Time == 21, ]
+chickaov <- aov(weight ~ Diet, data = chick21)
 summary(chickaov)
 
 ggaov(chickaov, colaccept = "grey89", colreject = "black")
-
 }

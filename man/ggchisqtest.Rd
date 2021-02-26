@@ -46,5 +46,4 @@ sex_smoke <- table(survey$Sex, survey$Smoke)
 chisq_test3 <- chisq.test(sex_smoke)
 chisq_test3
 ggchisqtest(chisq_test3)
-
 }

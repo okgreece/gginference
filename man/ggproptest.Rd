@@ -21,15 +21,14 @@ more than 2 samples}
 }
 \description{
 Visualise \code{\link{prop.test}} for testing the null that the proportions
- (probabilities of success) in several groups are the same, or that they 
+ (probabilities of success) in several groups are the same, or that they
  equal certain given values.
 }
 \examples{
 
-x  <- c(5, 8, 12)
+x <- c(5, 8, 12)
 y <- c(8, 9, 13)
 pr_test <- prop.test(x, y)
 pr_test
 ggproptest(pr_test)
-
 }
