@@ -1,8 +1,8 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^README\.rmd$
-^\.travis\.yml$
 ^NEWS\.Rmd$
 ^docs$
 ^data-raw$
 ^readme_formula$
+^\.github$
