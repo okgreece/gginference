@@ -115,16 +115,13 @@ ggchisqtest <- function(t,
   # plot it
   if (t$method == "Pearson's Chi-squared test") {
     plotchisq
-  }
-  else if (t$method ==
+  } else if (t$method ==
     "Pearson's Chi-squared test with Yates' continuity correction") {
     plotchisq
-  }
-  else if (t$method ==
+  } else if (t$method ==
     "Chi-squared test for given probabilities") {
     plotchisq
-  }
-  else {
+  } else {
     print("Chi-squared test is based on Monte-Carlo resampling and simulated p-value")
   }
 }

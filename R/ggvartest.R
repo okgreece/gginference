@@ -32,7 +32,6 @@ ggvartest <- function(t,
                       colaccept = "lightsteelblue1",
                       colreject = "gray84",
                       colstat = "navyblue") {
-
   # 1-alpha,is needed for F distribution
   level <- as.numeric(attributes(t$conf.int))
 
@@ -42,8 +41,7 @@ ggvartest <- function(t,
       df1 <- t$parameter[1]
       df2 <- t$parameter[2]
       t$statistic <- t$statistic
-    }
-    else {
+    } else {
       df1 <- t$parameter[2]
       df2 <- t$parameter[1]
       t$statistic <- 1 / t$statistic

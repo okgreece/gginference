@@ -38,21 +38,17 @@ ggttest <- function(t,
     } else {
       studt(t, colaccept, colreject, colstat)
     }
-  }
-  else if (t$method == "Welch Two Sample t-test") {
+  } else if (t$method == "Welch Two Sample t-test") {
     splitter <- if (isTRUE(grepl("by", t$data.name))) "by" else "and"
     datnames <- strsplit(t$data.name, splitter)
-
     len1 <- length(eval(parse(text = datnames[[1]][1])))
     len2 <- length(eval(parse(text = datnames[[1]][2])))
-
-    if (len1 & len2 > 30) {
+    if (len1 && len2 > 30) {
       normt(t, colaccept, colreject, colstat)
     } else {
       studt(t, colaccept, colreject, colstat)
     }
-  }
-  else { # both paired and t-test with equal variances follow t-distribution
+  } else { # both paired and t-test with equal variances follow t-distribution
     studt(t, colaccept, colreject, colstat)
   }
 }
@@ -60,13 +56,12 @@ ggttest <- function(t,
 # choose based on
 # l1<-length(eval(parse(text=t$data.name)))
 # if (l1>30)-->
-# subfunction of normal distribution
+# sub function of normal distribution
 normt <- function(t, colaccept, colreject, colstat) {
   # set points depending on test statistic
   # plot with normal distribution
   # set z(a/2)-score
   level <- 1 - as.numeric(attributes(t$conf.int))
-
   if (t$alternative == "two.sided") {
     ub <- abs(stats::qnorm(p = level / 2))
     lb <- -abs(stats::qnorm(p = level / 2))
@@ -75,7 +70,6 @@ normt <- function(t, colaccept, colreject, colstat) {
   } else {
     lb <- -abs(stats::qnorm(p = level))
   }
-
   # chose area to plot based on the value of the statistic
   if (abs(t$statistic) > 4) {
     # test statistic follow N(0,1)
@@ -88,7 +82,6 @@ normt <- function(t, colaccept, colreject, colstat) {
   } else {
     points <- seq(-4, 4, length = 10000)
   }
-
   # and limit points for plotting
   if (t$alternative == "two.sided") {
     limits <- points >= lb & points <= ub
@@ -114,7 +107,6 @@ normt <- function(t, colaccept, colreject, colstat) {
     dfpoly1 <- data.frame(x = c(lb, points), y = c(0, stats::dnorm(points)))
     dfpoly2 <- rbind(c(lb, 0), dfpoly1[limits, ])
   }
-
   # and plot
   normplot <- ggplot(data = data.frame(points), aes(points)) +
     stat_function(
@@ -146,7 +138,6 @@ normt <- function(t, colaccept, colreject, colstat) {
       angle = 90, vjust = -0.4
     ) +
     theme_classic()
-
   if (t$alternative == "two.sided") {
     normplot +
       geom_vline(
@@ -195,15 +186,12 @@ studt <- function(t, colaccept, colreject, colstat) {
   # plot with student distribution
   level <- 1 - as.numeric(attributes(t$conf.int))
   df <- t$parameter
-
   if (t$alternative == "two.sided") {
     ub <- abs(stats::qt(p = level / 2, df = df))
     lb <- -abs(stats::qt(p = level / 2, df = df))
-  }
-  else if (t$alternative == "greater") {
+  } else if (t$alternative == "greater") {
     ub <- abs(stats::qt(p = level, df = df))
-  }
-  else {
+  } else {
     lb <- -abs(stats::qt(p = level, df = df))
   }
   # chose area to plot based on the value of the statistic
@@ -215,21 +203,17 @@ studt <- function(t, colaccept, colreject, colstat) {
       to = 1 + abs(t$statistic),
       length = 10000
     )
-  }
-  else {
+  } else {
     points <- seq(-4, 4, length = 10000)
   }
   # and limit points for plotting
   if (t$alternative == "two.sided") {
     limits <- points >= lb & points <= ub
-  }
-  else if (t$alternative == "greater") {
+  } else if (t$alternative == "greater") {
     limits <- points <= ub
-  }
-  else {
+  } else {
     limits <- points >= lb
   }
-
   # make data frames for ggplot
   if (t$alternative == "two.sided") {
     dfpoly1 <- data.frame(
@@ -237,15 +221,13 @@ studt <- function(t, colaccept, colreject, colstat) {
       y = c(0, stats::dt(points, df = df), 0)
     )
     dfpoly2 <- rbind(c(lb, 0), dfpoly1[limits, ], c(ub, 0))
-  }
-  else if (t$alternative == "greater") {
+  } else if (t$alternative == "greater") {
     dfpoly1 <- data.frame(
       x = c(points, ub),
       y = c(stats::dt(points, df = df), 0)
     )
     dfpoly2 <- rbind(dfpoly1[limits, ], c(ub, 0))
-  }
-  else {
+  } else {
     dfpoly1 <- data.frame(
       x = c(lb, points),
       y = c(0, stats::dt(points, df = df))
@@ -292,7 +274,6 @@ studt <- function(t, colaccept, colreject, colstat) {
       vjust = -0.4
     ) +
     theme_classic()
-
   if (t$alternative == "two.sided") {
     tplot +
       geom_vline(
