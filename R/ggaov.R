@@ -38,7 +38,7 @@ ggaov <- function(t,
   # based of how many degrees of freedom there are
   if (length(tt[[1]]$Df) == 2) {
     F_stat <- tt[[1]][["F value"]][1]
-    df_1 <- tt[[1]]$Df[1]
+    df1 <- tt[[1]]$Df[1]
     df2 <- tt[[1]]$Df[2]
 
     # confidence level
@@ -46,14 +46,14 @@ ggaov <- function(t,
     # make a list of points for the plot
     points <- seq(-0.5, 5, length = 10000)
     # set the upper bound
-    ub <- stats::qf(p = level, df_1 = df_1, df2 = df2)
+    ub <- stats::qf(p = level, df1 = df1, df2 = df2)
     # limit the points based on the upper bound
     limits <- points <= ub
 
     # make dataframes for ggplot
     dfpoly1 <- data.frame(
       x = c(points, ub),
-      y = c(stats::df(points, df_1, df2), 0)
+      y = c(stats::df(points, df1, df2), 0)
     )
     dfpoly2 <- rbind(dfpoly1[limits, ], c(ub, 0))
 
@@ -63,7 +63,7 @@ ggaov <- function(t,
         fun = stats::df,
         n = 100,
         args = list(
-          df_1 = df_1,
+          df1 = df1,
           df2 = df2
         ),
         col = "white"
@@ -75,7 +75,7 @@ ggaov <- function(t,
         subtitle = "based on one way ANOVA",
         x = paste(
           "F distribution with",
-          df_1,
+          df1,
           "&",
           df2,
           "degrees of freedom"
@@ -103,7 +103,7 @@ ggaov <- function(t,
     for (i in 1:2) {
       # for factor A
       F_stat <- tt[[1]][["F value"]][i]
-      df_1 <- tt[[1]]$Df[i]
+      df1 <- tt[[1]]$Df[i]
       # within df
       df2 <- tt[[1]]$Df[3]
       # confidence level
@@ -111,14 +111,14 @@ ggaov <- function(t,
       # make a list of points for the plot
       points <- seq(-0.5, 5, length = 10000)
       # set the upper bound
-      ub <- stats::qf(p = level, df_1 = df_1, df2 = df2)
+      ub <- stats::qf(p = level, df1 = df1, df2 = df2)
       # limit the points based on the upper bound
       limits <- points <= ub
 
       # make dataframes for ggplot
       dfpoly1 <- data.frame(
         x = c(points, ub),
-        y = c(stats::df(points, df_1, df2), 0)
+        y = c(stats::df(points, df1, df2), 0)
       )
       dfpoly2 <- rbind(dfpoly1[limits, ], c(ub, 0))
 
@@ -127,7 +127,7 @@ ggaov <- function(t,
         stat_function(
           fun = stats::df,
           n = 100,
-          args = list(df_1 = df_1, df2 = df2),
+          args = list(df1 = df1, df2 = df2),
           col = "white"
         ) +
         geom_polygon(data = dfpoly1, aes(x, y), fill = colreject) +
@@ -137,7 +137,7 @@ ggaov <- function(t,
           subtitle = "based on two way ANOVA",
           x = paste(
             "F distribution with",
-            df_1,
+            df1,
             "&",
             df2,
             "degrees of freedom"

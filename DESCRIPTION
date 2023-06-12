@@ -17,5 +17,5 @@ License: GPL-2 | file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: ggplot2, rlang, stats, utils
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.3
 Suggests: knitr, MASS, rmarkdown
